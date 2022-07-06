@@ -7,8 +7,8 @@ print('Só tem espaços? {}'.format(valor.isspace()))
 print('É um número? {}'.format(valor.isnumeric()))
 print('É alfabético? {}'.format(valor.isalpha()))
 print('É alfanúmerico? {}'.format(valor.isalnum()))
-print('Está em maiúsculas?'.format(valor.isupper()))
-print('Está em minúsculas?'.format(valor.islower()))
-print('Está capitalizada?'.format(valor.isascii()))
+print('Está em maiúsculas? {}'.format(valor.isupper()))
+print('Está em minúsculas? {}'.format(valor.islower()))
+print('Está capitalizada? {}'.format(valor.isascii()))
 
 

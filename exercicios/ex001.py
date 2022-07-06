@@ -13,3 +13,9 @@ print('A soma é {}, o produto é {} e a divisão é {:.2f}'.format(s, m, d), en
 # :.xf é usado para definir a quantidade x de casas decimais;
 
 print('Divisao inteira {} e potencia {}'.format(di, e))
+
+#Ordem de precedência
+# 1 - ()
+# 2 - **
+# 3 - * / // %
+# 4 - + -
