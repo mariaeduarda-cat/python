@@ -2,10 +2,11 @@
 
 
 produto = float(input('Qual é o preço do produto? R$'))
-print(f'O produto que custava R${produto}, na promoção com desconto de 5% vai custar R${produto*0.95:.2f}.')
+print(f'O produto que custava R${produto}, na promoção com desconto de 5% vai custar R${produto * 0.95:.2f}.')
+# novo = produto - (produto * 5 / 100)
 
 
 produto = float(input('Qual é o preço do produto? R$'))
 desconto = int(input('De quanto será o desconto? %'))
-print(f'O produto que custava R${produto}, na promoção com desconto de {desconto}% vai custar R${produto - (produto*desconto)/100:.2f}.')
-# Codígo generalizado;
+print(f'O produto que custava R${produto}, na promoção com desconto de {desconto}% vai custar R${produto - (produto * desconto)/100:.2f}.')
+# Codígo generalizado; 
