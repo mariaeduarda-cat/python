@@ -15,7 +15,7 @@ print(f'{n} x {9:2} = {n * 9}')
 print(f'{n} x {10:2} = {n * 10}')
 print('-' * 20)
 
-#:x alinha a tabuada com x dígitos para frente;
+# :x alinha a tabuada com x dígitos para frente;
 
 
 

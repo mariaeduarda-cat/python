@@ -6,5 +6,5 @@ alt = float(input('Altura da parede: '))
 print(f'Sua parede tem a dimensão de {lar}x{alt} e sua área é de {lar*alt}m².\n-Para pintar esta parede, você precisará de {(lar*alt)/2:.2f}l de tinta.')
 
 
-#Cálculo área: altura * largura(base)
-#Perímetro: soma de todos os lados 
+# Cálculo área: altura * largura(base)
+# Perímetro: soma de todos os lados 

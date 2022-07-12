@@ -7,10 +7,10 @@ print(f'A medida de {n1:.1f}m corresponde a: \n{n1/1000}km \n{n1/100}hm \n{n1/10
 
 #Tabela das medidas
 # KM HM DAM M DM CM MM
-#km = kilômetro 
-#hm = hectômetro
-#dam = decâmetro                 
-#m = metro
-#dm = decímetro
-#cm = centrímetro
-#mm = milímetro
+# km = kilômetro 
+# hm = hectômetro
+# dam = decâmetro                 
+# m = metro
+# dm = decímetro
+# cm = centrímetro
+# mm = milímetro

@@ -14,12 +14,12 @@ co = float(input('Quanto mede o cateto oposto? '))
 ca = float(input('Quanto mede o cateto adjacente? '))
 hi = hypot(co, ca)
 print('A hipotenusa deste triangulo mede {:.2f}'.format(hi))
-# A função 'math.hypot' é usada para calcular a raiz quadrada da soma de quadrados de números passados a ele como argumentos.
+# A função 'hypot()' é usada para calcular a raiz quadrada da soma de quadrados de números passados a ele como argumentos.
 
-from math import sqrt
+import math
 
 co = float(input('Comprimento do cateto oposto: '))
 ca = float(input('Comprimento do cateto adjacente: '))
-hi = sqrt((pow(co, 2) + pow(ca, 2)))
+hi = math.sqrt((pow(co, 2) + pow(ca, 2)))
 print('A hipotenusa vai medir {:.2f}'.format(hi))
 # A função 'math.sqrt' retorna a raiz quadrada de um número;

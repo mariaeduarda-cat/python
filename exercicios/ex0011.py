@@ -13,4 +13,3 @@ print(f'O funcionário que ganhava R${salário:.2f}, com aumento de {aumento}%, 
 salário = float(input('Qual é o salário do funcionário? R$'))
 aumento = int(input('De quanto será o aumento? %'))
 print(f'O funcionário que ganhava R${salário:.2f}, com aumento de {aumento}%, passa a receber R${salário + (salário * aumento / 100):.2f}')
-klklklk
