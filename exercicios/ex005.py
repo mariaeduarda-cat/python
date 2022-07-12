@@ -1,7 +1,6 @@
 # Crie um programa que leia as duas notas de um aluno, calcule e mostre a sua média;
 
 
-
 n1 = int(input('Nota da 1º prova: '))
 n2 = int(input('Nota da 2º prova: '))
 media = (n1 + n2) / 2

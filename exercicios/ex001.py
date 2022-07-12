@@ -1,7 +1,6 @@
 # Crie um programa que leia dois números e mostre a soma, multiplicção, divisão, divisão inteira e a potência entre eles;
 
 
-
 n1 = int(input('Um valor: '))
 n2 = int(input('Outro valor: '))
 s = n1 + n2

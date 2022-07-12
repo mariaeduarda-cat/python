@@ -1,7 +1,6 @@
 # Crie um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada;
 
 
-
 n = int(input('Digite um número para ver sua tabuada: '))
 print('-' * 20)
 print(f'{n} x {1} = {n * 1}')
@@ -16,7 +15,7 @@ print(f'{n} x {9:2} = {n * 9}')
 print(f'{n} x {10:2} = {n * 10}')
 print('-' * 20)
 
-#:x alinha a tabuada com x dígitos para frente
+#:x alinha a tabuada com x dígitos para frente;
 
 
 
