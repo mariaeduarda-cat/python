@@ -1,5 +1,4 @@
-# Crie um programa que leia o comprimento do cateto oposto e do cacteto adjacente de um triangulo retangulo. Calcule e mostre
-# o comprimento da hipotenusa;
+# Crie um programa que leia o comprimento do cateto oposto e do cacteto adjacente de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa;
 
 
 co = float(input('Quanto mede o cateto oposto? '))
@@ -7,6 +6,7 @@ ca = float(input('Quanto mede o cateto adjacente? '))
 hi = (co**2 + ca**2) ** (1/2)
 print(f'A hipotenusa vai medir {hi:.2f}')
 # Codígo resolvido da maneira matemática sem importação;
+# h² = co² + ca²
 
 from math import hypot
 
@@ -14,7 +14,7 @@ co = float(input('Quanto mede o cateto oposto? '))
 ca = float(input('Quanto mede o cateto adjacente? '))
 hi = hypot(co, ca)
 print('A hipotenusa deste triangulo mede {:.2f}'.format(hi))
-# A função 'hypot()' é usada para calcular a raiz quadrada da soma de quadrados de números passados a ele como argumentos.
+# A função 'hypot()' é usada para calcular a hipotenusa;
 
 import math
 

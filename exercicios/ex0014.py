@@ -1,6 +1,8 @@
-# Crie um programa que leia umm número real qualquer e mostre na tela a sua porção inteira;
 
 # TRABALHANDO COM IMPORTANÇÕES;
+
+
+# Crie um programa que leia um número real qualquer e mostre na tela a sua porção inteira;
 
 
 import math
@@ -23,7 +25,7 @@ print(f'A porção inteira deste número é {int(n)}')
 # Podemos dar apelidos as funções da biblioteca, no intuito de ser mais fácil de se compreender. Por exemplo:
 # Utilizando 'as' podemos dar um apelido a alguma função da biblioteca. Vejamos com o sqrt:
 # from math import sqrt as raizquadrada
-# agora ao invés de usar 'sqrt(4)' ou 'math.sqrt(4)', podemos usar 'raizquadrada(4)', assim o resultado será o mesmo e retornará 2;
+# Agora ao invés de usar 'sqrt(4)' ou 'math.sqrt(4)', podemos usar 'raizquadrada(4)', assim o resultado será o mesmo e retornará 2;
 
 from math import sqrt as rq
 
