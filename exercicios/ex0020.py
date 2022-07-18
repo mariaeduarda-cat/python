@@ -17,12 +17,12 @@ print('Milhar: {}'.format(m))
 # Divisão inteira: 1234 // 10 = 123
 # Módulo: 1234 % 10 = 4 (o resto da divisão)
 # Pra descobrir a centena fazemos a divisão inteira por 100: 1234 // 100 = 12
-# Depois pegamos o resultado e dividimos por 10, mas pega só o resto dessa divisão (que é o módulo): 12 % 10 = 2
-# Ou seja, a centena é 2.
+# Depois pegamos o resultado e dividimos por 10, mas pega só o resto dessa divisão (que é o módulo): 12 % 10 = 2. Ou seja, a centena é 2.
 
-num = int(input('Insura um número: '))
+num = int(input('Insira um número: '))
 n = str(num)
 print('Unidade: {}'.format(n[3]))
 print('Dezena: {}'.format(n[2]))
 print('Centena: {}'.format(n[1]))
 print('Milhar: {}'.format(n[0]))
+# Dividir os dígitos com método de string, porém com erro se não usarmos os 4 dígitos então não é a melhor maneira

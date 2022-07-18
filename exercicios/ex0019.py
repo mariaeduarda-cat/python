@@ -10,13 +10,12 @@ print('Analisando seu nome...')
 print(f'Seu nome em maiúculas é {nome.upper()}')
 print(f'Seu nome em minúsculas é {nome.lower()}')
 print('Seu nome tem ao todo {} letras'.format(len(nome) - (nome.count(' '))))
-print(f'Seu primeiro nome é {nome[0:5]} e ele tem {len(nome[0:5])} letras')
-# Uma forma de contar todas as letras sem contar os espaços é usando len(nome) - (nome.count(' '), pois assim o codígo
-# irá contar todas as letras sem contar com os espaços entre as palavras;
+separa = nome.split()
+print(f'Seu primeiro nome é {separa[0]} e ele tem {len(separa[0])} letras')
+# Uma forma de contar todas as letras de algum nome sem contar os espaços entre as palavras é usando o comando len(nome) - (nome.count(' '), pois assim o codígo irá contar todas as letras sem contar com os espaços entre as palavras;
 
-print('Seu primeiro nome tem {}'.format(nome.find(' ')))
-# Outra forma de achar quantas letras tem o primeiro nome é usando nome.find(' ') pois assim o codígo irá encontrar
-# o primeiro espaço;
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
+# Outra forma de achar quantas letras tem o primeiro nome é usando nome.find(' ') pois assim o codígo irá encontrar o primeiro espaço da palavra;
 
 print(len(nome.replace(' ', '')))
 # Também podemos usar a função '.replace()' para substituir um espaço vazio por uma string vazia;

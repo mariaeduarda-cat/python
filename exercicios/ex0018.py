@@ -17,8 +17,8 @@ n2 = str(input('Segundo aluno: '))
 n3 = str(input('Terceiro aluno: '))
 n4 = str(input('Quarto aluno: '))
 alunosx = [n1, n2, n3, n4]
-shuffle(alunosx)
-print(f'A ordem de apresentação será: \n{alunosx}')
+ordem = shuffle(alunosx)
+print(f'A ordem de apresentação será: \n{ordem}')
 # Do módulo 'random' usamos a função 'shuffle' para embaralhar os elementos de uma lista;
 
 from random import sample
